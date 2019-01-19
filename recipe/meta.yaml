@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: dask
@@ -7,10 +7,10 @@ package:
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: a1fa4a3b2d7ce4dd0c68db4b68dadf2c283ff54d98bd72c556fc462000449ff7
+  sha256: e76088e8931b326c05a92d2658e07b94a6852b42c13a7560505a8b2354871454
 
 build:
-  number: 1
+  number: 0
   noarch: python
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - cloudpickle >=0.2.1
     - cytoolz >=0.7.3
     - dask-core {{ version }}
-    - distributed >=1.25.0
+    - distributed >=1.25.2
     - numpy >=1.11.0
     - pandas >=0.19.0
     - partd >=0.3.8
