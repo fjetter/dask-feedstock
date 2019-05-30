@@ -10,11 +10,11 @@ source:
   sha256: 5e7876bae2a01b355d1969b73aeafa23310febd8c353163910b73e93dc7e492c
 
 build:
-  number: 1
+  number: 2
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
 
   run:
@@ -43,11 +43,13 @@ test:
     - distributed
 
 about:
-  home: http://github.com/dask/dask/
+  home: https://dask.org/
   license: BSD 3-Clause
   license_file: LICENSE.txt
-  summary: 'Parallel Python with task scheduling'
-  doc_url: https://dask.pydata.org/
+  summary: 'Parallel PyData with Task Scheduling'
+  description: |
+    Dask is a flexible parallel computing library for analytics.
+  doc_url: https://dask.org/
   dev_url: https://github.com/dask/dask
 
 extra:
