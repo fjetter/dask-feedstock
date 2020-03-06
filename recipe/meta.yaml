@@ -1,13 +1,13 @@
-{% set version = "2.11.0" %}
+{% set version = "2.12.0" %}
 
 package:
   name: dask
-  version: "{{ version }}"
+  version: {{ version }}
 
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 75db244bddb5e5707ff97d2d215be6c9148791c8afc5b5839c4f04492f085912
+  sha256: b88a14ad3ff350ea2eb54abb7ee7ed04c7f966b98d5e9a20c45d18441f9f14bc
 
 build:
   number: 0
@@ -47,7 +47,7 @@ about:
   home: https://dask.org/
   license: BSD 3-Clause
   license_file: LICENSE.txt
-  summary: 'Parallel PyData with Task Scheduling'
+  summary: Parallel PyData with Task Scheduling
   description: |
     Dask is a flexible parallel computing library for analytics.
   doc_url: https://dask.org/
