@@ -19,16 +19,17 @@ requirements:
 
   run:
     - python >=3.6
-    - bokeh >=1.0.0
-    - cloudpickle >=0.2.1
-    - cytoolz >=0.7.3
+    - bokeh >=1.0.0,!=2.0.0
+    - cloudpickle >=0.2.2
+    - cytoolz >=0.8.2
     - dask-core {{ version }}
     - distributed >={{ version }}
     - fsspec >=0.6.0
     - numpy >=1.13.0
     - pandas >=0.23.0
     - partd >=0.3.10
-    - toolz >=0.7.3
+    - toolz >=0.8.2
+    - openssl !=1.1.1e
 
 test:
   imports:
