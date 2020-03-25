@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://dask.org/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Parallel PyData with Task Scheduling
   description: |
