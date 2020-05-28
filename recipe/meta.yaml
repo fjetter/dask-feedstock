@@ -1,4 +1,4 @@
-{% set version = "2.17.0" %}
+{% set version = "2.17.1" %}
 
 package:
   name: dask
@@ -7,7 +7,7 @@ package:
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: b8b0960b79607d4bb78ca33a75ab596cf546a869661e4e9637777923e4290236
+  sha256: 6717877772974868f503b4215387fcb86cc8fd9e55ec042349aba69e21cb1aca
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - cloudpickle >=0.2.2
     - cytoolz >=0.8.2
     - dask-core {{ version }}
-    - distributed >={{ version }}
+    - distributed >=2.17.0
     - fsspec >=0.6.0
     - numpy >=1.13.0
     - pandas >=0.23.0
