@@ -23,7 +23,7 @@ requirements:
     - cloudpickle >=0.2.2
     - cytoolz >=0.8.2
     - dask-core {{ version }}
-    - distributed >={{ version }}
+    - distributed >=2.17.0
     - fsspec >=0.6.0
     - numpy >=1.13.0
     - pandas >=0.23.0
