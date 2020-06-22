@@ -125,9 +125,5 @@ Feedstock Maintainers
 * [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
 * [@pitrou](https://github.com/pitrou/)
-* [@shoyer](https://github.com/shoyer/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
-
-
-<!-- dummy commit to enable rerendering -->
 
