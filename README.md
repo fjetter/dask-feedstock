@@ -5,7 +5,7 @@ Home: https://dask.org/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Parallel PyData with Task Scheduling
 
