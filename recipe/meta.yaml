@@ -1,4 +1,4 @@
-{% set version = "2021.7.2" %}
+{% set version = "2021.8.0" %}
 
 package:
   name: dask
@@ -7,7 +7,7 @@ package:
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 41727347fb4c098c5cafe3e1e24634b086461603cc3b6f6f71f335abf15833c8
+  sha256: 3d4c7f4c29f20ed8ee7bc4ed98b7fb8384accd9a1a166716392d81db9d9e2782
 
 build:
   number: 0
@@ -23,8 +23,8 @@ requirements:
     - cytoolz >=0.8.2
     - dask-core {{ version }}
     - distributed {{ version }}
-    - numpy >=1.16
-    - pandas >=0.25.0
+    - numpy >=1.18
+    - pandas >=1.0
 
   run_constrained:
     - openssl !=1.1.1e
