@@ -5,7 +5,7 @@ Home: https://dask.org/
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parallel PyData with Task Scheduling
 
@@ -22,8 +22,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5195&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dask-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5195&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dask-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -132,7 +132,4 @@ Feedstock Maintainers
 * [@mrocklin](https://github.com/mrocklin/)
 * [@pitrou](https://github.com/pitrou/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
-
-
-<!-- dummy commit to enable rerendering -->
 
