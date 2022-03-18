@@ -1,4 +1,4 @@
-{% set version = "2022.2.1" %}
+{% set version = "2022.3.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: b699da18d147da84c6c0be26d724dc1ec384960bf1f23c8db4f90740c9ac0a89
+  sha256: 9e0188dd4397099f148e80e04902703c465e577c747591f0e9b801998ad3abf0
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - cytoolz >=0.8.2
     - numpy >=1.18
     - pandas >=1.0
-    - bokeh >=2.1.1
+    - bokeh >=2.4.2
     - jinja2
 
   run_constrained:
