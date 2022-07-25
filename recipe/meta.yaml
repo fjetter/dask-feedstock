@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/68/e1/1edb5eeb15f88267075c37ee8c83c4527e462bdea328566c5b1e88db705c/dask-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
   sha256: a3972489c46456e54070fe140a2178e002c2e96912ed9ef85c3896b74f469194
 
 build:
