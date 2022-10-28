@@ -10,7 +10,7 @@ source:
   sha256: f277a3b300ecc1d0be232a339f346dff686e0becdb0843c0aaf2ae943d5492d3
 
 build:
-  number: 2
+  number: 0
   noarch: python
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - lz4
     - numpy >=1.18
     - pandas >=1.0
-    - bokeh >=2.4.2
+    - bokeh >=2.4.2,<3
     - jinja2
 
   run_constrained:
