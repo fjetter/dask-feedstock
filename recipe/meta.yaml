@@ -1,4 +1,4 @@
-{% set version = "2022.11.0" %}
+{% set version = "2022.11.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 0def56f16568c293fddffa9fd92da694e1edb652b366500f97b7fe64e8d3983c
+  sha256: 18e5c442778cdbb177041dadf9950546884c0f1ce1ac25c98aa2cade2a9d83f0
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - lz4
     - numpy >=1.18
     - pandas >=1.0
-    - bokeh >=2.4.2
+    - bokeh >=2.4.2,<3
     - jinja2
 
   run_constrained:
