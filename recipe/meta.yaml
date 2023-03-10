@@ -1,4 +1,4 @@
-{% set version = "2023.3.0" %}
+{% set version = "2023.3.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 6773a35efe255e85703574ab5bd27055cfd02536b965e2264f86d2c9128a96cd
+  sha256: 62d334012d7cd814186931ea83ebf1a6231c2af4260ad204dc78080a55947c17
 
 build:
   number: 0
@@ -23,11 +23,12 @@ requirements:
     - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - {{ pin_compatible('distributed', max_pin='x.x.x') }}
     - cytoolz >=0.8.2
-    - lz4
+    - lz4 >=4.3.2
     - numpy >=1.21
     - pandas >=1.3
     - bokeh >=2.4.2,<3
     - jinja2 >=2.10.3
+    - pyarrow >=7.0
 
   run_constrained:
     - openssl !=1.1.1e
